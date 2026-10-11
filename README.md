@@ -90,10 +90,10 @@ The six data checks validate column names and order, borough names, geographic b
 | `clean_sample.csv:reference` | Fixed reference version for distribution checks. |
 | `trainval_data.csv` | Training and validation data. |
 | `test_data.csv` | Held-out test data. |
-| `random_forest_export` | Exported MLflow scikit-learn model, uploaded with type `model_export`. |
-| `random_forest_export:prod` | Model selected for test-set evaluation. |
+| `model_export` | Exported MLflow scikit-learn model, uploaded with type `model_export`. |
+| `model_export:prod` | Model selected for test-set evaluation. |
 
-These are the artifact names used by this implementation. The lesson uses `clean_sample.csv`; some rubric wording refers to `clean_data.csv`. The model artifact's name is `random_forest_export` and its type is `model_export`.
+These are the artifact names used by this implementation. The lesson uses `clean_sample.csv`; some rubric wording refers to `clean_data.csv`. The model artifact's name and type is `model_export`.
 
 ## Model and results
 
